@@ -12,4 +12,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 19.1.0
+      - run: npm install
       - run: npx jest
